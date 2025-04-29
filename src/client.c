@@ -6,7 +6,7 @@
 /*   By: marcnava <marcnava@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/16 17:46:45 by marcnava          #+#    #+#             */
-/*   Updated: 2025/03/17 02:20:57 by marcnava         ###   ########.fr       */
+/*   Updated: 2025/03/18 18:36:59 by marcnava         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ void	send_data(pid_t server, char *data)
 	send_byte(server, '\0');
 }
 
-int main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
 	struct sigaction	ack;
 	pid_t				server;
